@@ -51,7 +51,7 @@ button{
   width: 75px;
   border-radius: 2px;
   position: relative;
-  cursor: default;
+  cursor: pointer;
   font-family: share tech mono,monospace;
   font-size: large;
   transition: all 0.3s;
