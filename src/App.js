@@ -34,13 +34,15 @@ function reducer(state,action){
             return {
               ...state,
               inputData: action.payload,
-              displayData: action.payload
+              displayData: action.payload,
+              finalResult: ''
             };
           } else {
             return {
               ...state,
               inputData: state.inputData + action.payload,
-              displayData: state.displayData + action.payload
+              displayData: state.displayData + action.payload,
+              finalResult: ''
             };
           }
         }
