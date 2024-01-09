@@ -1,34 +1,35 @@
-@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+@import "https://fonts.googleapis.com/css?family=Share+Tech+Mono";
 @font-face {
-  font-family: 'Digital';
-  src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot');
-  src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix')
-      format('embedded-opentype'),
-    url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2')
-      format('woff2'),
-    url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff')
-      format('woff'),
-    url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf')
-      format('truetype'),
-    url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7')
-      format('svg');
-}  
-.main{
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7")
+      format("svg");
+}
+.main {
   height: 100vh;
   background-color: bisque;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.box{
+.box {
   background-color: aliceblue;
   height: 470px;
   width: 300px;
   padding: 2px;
   display: block;
-  border: 2px solid black; 
+  border: 2px solid black;
 }
-#display,#input{
+#display,
+#input {
   height: 80px;
   width: 300px;
   background-color: beige;
@@ -37,7 +38,7 @@
   overflow: hidden;
   word-wrap: break-word;
 }
-#input{
+#input {
   height: 40px;
   width: 300px;
   background-color: beige;
@@ -46,52 +47,58 @@
   overflow: hidden;
   word-wrap: break-word;
 }
-button{
+button {
   height: 70px;
   width: 75px;
   border-radius: 2px;
   position: relative;
   cursor: pointer;
-  font-family: share tech mono,monospace;
+  font-family: share tech mono, monospace;
   font-size: large;
   transition: all 0.3s;
 }
 button:hover {
   color: rgb(205, 12, 12);
-  background-color: rgb(202, 202, 36);
   outline: 0.05em solid grey;
-  z-index: 3;
 }
-
-.btns{
+button:active {
+  background-color: aliceblue;
+}
+.btns {
   display: flex;
   flex-wrap: wrap;
 }
-#clear{
+#clear {
   width: 150px;
   background-color: rgb(218, 33, 73);
 }
-#zero{
+#zero {
   width: 150px;
 }
-#equals{
+#equals {
   height: 140px;
   background-color: rgba(23, 123, 237, 0.822);
   position: absolute;
-  top: 64.9%;
-  left: 55.5%;
+  transform: translate(225px, 210px);
 }
-#zero,#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#decimal{
+#zero,
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine,
+#decimal {
   background-color: rgb(51, 56, 61);
 }
-#add,#subtract,#multiply,#divide{
+#add,
+#subtract,
+#multiply,
+#divide {
   background-color: rgb(125, 123, 128);
 }
 @media only screen and (max-width: 600px) {
-}
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-}
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-}
-@media only screen and (min-width: 1025px) {
 }
