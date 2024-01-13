@@ -15,7 +15,7 @@
 }
 .main {
   height: 100vh;
-  background-color: bisque;
+  background: linear-gradient(360deg, #369d93 0%, #da40b1 100%);
   display: flex;
   align-items: center;
   justify-content: center;
